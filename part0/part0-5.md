@@ -1,7 +1,7 @@
 ## Part 0.5 Fullstackopen
 
 ```mermaid
-sequenceDiagram
+sequenceDiagram;
 participant Browser
 participant Server
 
@@ -11,3 +11,4 @@ Server activate
 
 
 ```
+

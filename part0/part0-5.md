@@ -1,6 +1,6 @@
 ## Part 0.5 Fullstackopen
 
-```Mermaid
+```mermaid
 sequenceDiagram
 participant Browser
 participant Server

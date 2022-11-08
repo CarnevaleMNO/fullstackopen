@@ -1,9 +1,12 @@
 ## Part 0.4 Fullstackopen 
 
 ```mermaid
-graph TD;
+sequenceDiagram;
+participant Browser
+participant Server
 
-Browser --> Server
+Browser ->> Server: send the user input
+note over Browser, Server: on form submit
+activate Browser
 
-Server --> Browser
 ```

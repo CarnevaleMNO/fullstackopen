@@ -7,7 +7,6 @@ participant Server
 
 Browser ->> Server: GET request for HTML page
 note right of Browser: The rest is manipulated with JS
-Server activate
 
 
 ```

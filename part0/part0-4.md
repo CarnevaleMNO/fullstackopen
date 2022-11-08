@@ -11,6 +11,6 @@ activate Server
 note right of Server: Http Post Request to /new_note
 Server ->> Browser: Http status code 302
 deactivate Server
-note right of Browser: Browser reloads page, requesting the js, css, and json data files.
+note left of Browser: Browser reloads page, requesting the js, css, and json data files.
 
 ```

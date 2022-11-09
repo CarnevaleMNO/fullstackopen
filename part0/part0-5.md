@@ -6,9 +6,9 @@ participant Browser
 participant Server
 
 Browser ->> Server: GET request for HTML page
-Server activate
+activate Server
 Server ->> Browser: HTML-code
-Server deactivate
+deactivate Server
 
 
 ```

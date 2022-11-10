@@ -9,7 +9,7 @@ Browser ->> Server: GET request for HTML page
 activate Server
 Server ->> Browser: HTML-code
 deactivate Server
-
+Note left of Browser: Contents are then manipulated using JS
 
 ```
 
